@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="'UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Personal_Portfolio</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+    </head>
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="logos/Tenzin Uden_transparent.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li> 
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li> 
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                 <div class="header-text">
+                    <p>Data Analyst/Web Developer Enthusiast</p>
+                    <h1>Greetings, I am <span>Tenzin Uden</span><br> I am a college sophomore interested in data analysis and web development. </h1>
+                 </div>
+            </div>
+        </div> 
+        <!-- ----about section---- -->
+        <div id="about">
+            <div class="container">
+               <div class="row">
+                 <div class="about-col-1">
+                    <img src="logos/passport_pic.jpg" >
+                 </div>
+                 <div class="about-col-2">
+                    <h1 class= "sub-title">About Me</h1>
+                    <p>content goes here</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('leadership')">Leadership</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                </div>
+                    <div>
+                        <div class="tab-contents active-tab" id="'skills" >
+                            <ul>
+                                <li><span>Python<br></span><br> Jupyter notebook, numpy,pandas, matplotlib, Pytorch etc. <br>Experience with OOP, SQL, Linux: experience with ETL, data-wrangling, data-visualization, statistical modeling, Node.js, BigQuery</li>
+                                <li><span>Programming<br></span><br>Studied data structures, systems architecture, Java, Assembly, and experience with Haskell and Javascript and Metasploit</li>
+                                <li><span>Data Analysis<br></span><br>YoloV, Homebrew; dept at data annotation and data accuracy testing</li>
+                                <li><span>Office, G-Suite<br></span><br>Proficient in database management and analysis, documentation and presentation</li>
+                                <li><span>Languages Spoken<br></span><br>Dzongkha , English , Japanese , Hindi</li>
+                                <li><span>Interpersonal<br></span><br>Organization, Presentation, Public Speaking, Critical Thinking, Managing Conflict, Documentation</li>
+                            </ul>
+                        </div>
+
+        
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Associated Student of Whitman College<br></span><br> Finance Committee Member<br><br>Oversaw a budget of more than $500,000 with precision, applying rigorous financial strategies to maximize efficiency and uphold fiscal responsibility, while conducting research to invest in ESG’s to support budget sustainability<br>Implemented a mid-year budget review, boosting transparency and support for 1,500 students; showcasing strong communication and analytical skills.</li>
+                                <li><span>Druk Holdings & Investments<br></span><br>Data Analyst & Annotator<br> <br>Developed an AI model to annotate diverse vehicle and pedestrian movements on the Capital City Highway, utilizing the YOLOv5 algorithm for Custom Objects in Google Colab and Python to process 3,000 real-life traffic data points (.png) within Roboflow.<br>Streamlined the annotation of traffic data (.png), applying labels such as Cars, SUV, Bus, Truck, PickUp, Taxi, and converting them into .json format with homebrew and Roboflow, achieving an 87% precision rate with the YOLO model.</li>
+                                <li><span>Kirirom Institute Of Technology<br></span><br>Software Intern & Code Camp Facilitator<br><br>Facilitated and taught 30 students, python skills; logic building, syntax and fundamentals of computer science using different platforms including Visual Studios Code and Spyder and the passing rate was over 90%. <br>Engaged actively in academic lectures, networked with industry professionals through virtual company interactions, and pursued practical software development projects at an incubation center.</li>
+                                <li><span>Whitman College<br></span><br>CS 215, Teaching Assistant & Lab Aide<br><br>Led weekly 2-hour lab sessions for CS students, clarifying data science concepts through visualizing data in Jupyter using python and pandas and enhancing lecture understanding in a supportive environment.<br>Provided individualized tutoring to 10+ students, aiding with data projects, programming, and logical reasoning skills.<br>Guided 30 students through data-driven problem-solving, focusing on critical thinking and analytical skills.</li>
+                                <li><span>Whitman College<br></span><br>Data Structures, Teaching Assistant & Lab Aide<br><br>Led weekly 2-hour lab sessions for CS students, clarifying data structures concepts through conceptualizing and breaking down code in Java and enhancing lecture understanding in a supportive environment.<br>Guided 25 students in problem-solving through aiding with coding projects, data structure concepts, and logical reasoning skills.</li>
+
+                                </ul>
+                        </div>
+                        <div class="tab-contents" id="leadership">
+                            <ul>
+                                <li><span>Whitman Baseball Team<br></span><br>Data Analyst Intern<br><br>Develop and implement a comprehensive player performance analysis framework, utilizing Python for statistical analysis that will lead to a significant improvement in pitching performance.<br>Implement predictive analytics for game outcome forecasting, enhancing communication and reporting through biweekly strategy sessions with the head coach and weekly meetings with the project manager.</li>
+                                <li><span>Annual Giving Office, Whitman College<br></span><br>Ambassador<br><br>Contributed to maintaining the financial health of the college by engaging with alumni via more than 5000 phone calls, text, on-campus events and secured more than $3000 from 30 plus donors.  <br>Articulated the importance of philanthropy in the experience of college students to convince and encourage philanthropists.  Utilized knowledge of Excel, Word, and other software to keep track of our database and philanthropic commitments. </li>
+                                <li><span>Career Center, Whitman College<br></span><br>Student Career Advisor<br><br>Collaborate with a team of 5 advisors to support a student population of 1500 to provide career oriented support.<br>Reviewed career-related documents for more than 30 students and contributed to more than 5 projects to increase the accessibility of jobs resulting in 100% outreach of the Career resources at Whitman.</li>
+                                <li><span>The WIRE<br></span><br>Campus Life Writer<br><br>Conducted in-depth interviews with staff, students, and faculty, crafting over 20 compelling articles on diverse campus events and critical issues like human trafficking, showcasing exceptional oral and written communication skills.<br>Amplified article reach via Facebook & Instagram, driving a 50% increase in engagement through strategic online promotion, demonstrating my prowess in articulating and advocating for pertinent topics.</li>
+                                <li><span>Friends United Football Club<br></span><br>Marketing Head<br><br>Launched targeted social media campaigns, raising awareness and securing $140 in sponsorships for football gear and refreshments, demonstrating adeptness in financial mobilization.<br>Collaborated with 2 executives of the Bhutan Football Federation/club team coaches and members to create content for increased reach to boost donor interest, reflecting strong stakeholder engagement skills.</li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>High School<br></span><br> United World College, ISAK Japan</li>
+                                <li><span>College<br></span><br>Whitman College, USA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+               </div> 
+            </div>
+        </div>
+<!-------------portfolio---------->
+
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2> <!-- Changed to h2 for better hierarchical structuring -->       
+        <div class="work-list">
+            
+            <div class="work">
+                <img src="analytics_image.jpg" alt="Data Analysis Project" >
+                <div class="layer">
+                    <h3>Data Anaytics Projects</h3>
+                    <p>Classwork </p>
+                    <a href="https://github.com/Tenzinyo/Data-Science-Projects" aria-label="Learn more about data analytics"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="nand2tetris.jpg" alt="Data Analysis Project" >
+                
+                <div class="layer">
+                    <h3>Nand2Tetris Projects</h3>
+                    <p>Computer Systems and Fundamentals Coursework</p>
+                    <a href="https://github.com/Tenzinyo/Nand2Tetris-Projects" aria-label="Learn more about Nand2Tetris"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="data_analysis.jpg" alt="Data Analysis Project" >
+                
+                <div class="layer">
+                    <h3>Project Dell</h3>
+                    <p>This was a database management project that I worked on during my final interview with Dell for a Software auditing role as a sophomore student.</p>
+                    <a href="https://github.com/Tenzinyo/Dell-Project" aria-label="Learn more about Project Dell"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------contact------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> udent@whitman.edu</p>
+                <p><i class="fas fa-phone"></i> +1 5096299724</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tenzin-uden" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+
+                </div>
+                <a href="Tenzin Uden Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message">></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Tenzin Uden. Made through following GreatStack Video Tutorial <i class="far fa-copyright"></i></p>
+    </div>
+</div>
+
+        <script>
+            
+            var tablinks= document.getElementsByClassName('tab-links');
+            var tabcontents = document.getElementsByClassName('tab-contents')
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+        </script>
+       
+        <script>
+            var side_menu= document.getElementByID('sidemenu');
+            function openmenu(){
+                side_menu.style.right= "0";
+            }
+            function closemenu(){
+                side_menu.style.right= "-200";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyqP7R_Nxrkempa485EkM45oh2sKYlzCLqaQqaAx1QMm2kGG_18PXeFqqJz68FTa1s/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
+</html>
